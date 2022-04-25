@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[class*="push"] {
+  position: relative;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border: 0;
+  margin: 1em;
+  outline: none;
+  background-color: hsla(10, 90%, 40%, 1);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+}
